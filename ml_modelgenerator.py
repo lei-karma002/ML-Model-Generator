@@ -3,12 +3,12 @@
 import streamlit as st
 
 # Set the page title and layout (this must remain the first Streamlit command)
-st.set_page_config(page_title="Modeling and Simulation Project", layout="centered")
+st.set_page_config(page_title="Modeling and Simulation Project")
 
 # Custom Title with Adjustable Size
 st.markdown(
     """
-    <h3 style=" text-align: center; margin-top: 20px;">📊 Modeling and Simulation Project</h3>
+    <h3 style=" font-size: 2em;text-align: center; margin-top: 20px;">📊 Modeling and Simulation Project</h3>
     """,
     unsafe_allow_html=True
 )
