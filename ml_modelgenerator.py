@@ -8,7 +8,7 @@ st.set_page_config(page_title="Modeling and Simulation Project", layout="centere
 # Custom Title with Adjustable Size
 st.markdown(
     """
-    <h2 style=" text-align: center; margin-top: 20px;">📊 Modeling and Simulation Project</h2>
+    <h3 style=" text-align: center; margin-top: 20px;">📊 Modeling and Simulation Project</h3>
     """,
     unsafe_allow_html=True
 )
