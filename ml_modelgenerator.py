@@ -3,7 +3,7 @@
 import streamlit as st
 
 # Set the page title and layout (this must remain the first Streamlit command)
-st.set_page_config(page_title="Modeling and Simulation Project")
+st.set_page_config(page_title="Modeling and Simulation Project", layout="centered")
 
 # Custom Title with Adjustable Size
 st.markdown(
