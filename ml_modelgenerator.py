@@ -8,10 +8,11 @@ st.set_page_config(page_title="Modeling and Simulation Project", layout="centere
 # Custom Title with Adjustable Size
 st.markdown(
     """
-    <h6 style="font-size: 3em; text-align: center; margin-top: 20px;">📊 Modeling and Simulation Project</h6>
+    <h6 style="font-size: 1.5em; text-align: center; margin-top: 20px;">📊 Modeling and Simulation Project</h6>
     """,
     unsafe_allow_html=True
 )
+
 
 # Introduction Section
 st.subheader("Introduction")
