@@ -6,7 +6,13 @@ import streamlit as st
 st.set_page_config(page_title="Modeling and Simulation Project", layout="centered")
 
 # Project Title
-st.title("📊 Modeling and Simulation Project")
+# Custom Title with Adjustable Size
+st.markdown(
+    """
+    <h1 style="font-size: 3em; text-align: center; margin-top: 20px;">📊 Modeling and Simulation Project</h1>
+    """,
+    unsafe_allow_html=True
+)
 
 # Introduction Section
 st.subheader("Introduction")
