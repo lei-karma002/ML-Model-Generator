@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-# Set the page title and layout
+# Set the page title and layout (must be the first Streamlit command)
 st.set_page_config(page_title="Modeling and Simulation Project", layout="centered")
 
 # Project Title
